@@ -1,6 +1,5 @@
 print("\nHello, world!\n")
-print("翻译：老子他妈的是宇宙之王（开玩笑的\n")
+print("翻译：我是宇宙之王（开玩笑的\n")
 print("翻译：你好，世界！\n")
-print("sb东西")
 print("wassup")
 print("testing for github")
