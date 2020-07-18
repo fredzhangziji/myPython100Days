@@ -7,7 +7,7 @@ To check if a num is a prime and a palindrome at the same time by modules.
 import practice2_isPalindromewithDef as isPal
 import practice3_isPrimewithDef as isPri
 
-if __name__ == "__main__":
+def main():
     a = int(input("Enter an integer: "))
 
     # this if condition can be written as below:
@@ -17,3 +17,8 @@ if __name__ == "__main__":
     
     else: 
         print("%d is not a prime and a palindrome at the same time." % a)
+
+    pass
+
+if __name__ == "__main__":
+    main()

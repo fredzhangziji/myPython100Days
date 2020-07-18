@@ -14,8 +14,12 @@ def LCM(a, b):
 def GCD(a, b):
     return a*b//LCM(a,b)
 
-if __name__ == "__main__":
+def main():
     a = int(input("Enter num1: "))
     b = int(input("Enter num2: "))
     print("LCM is: ", LCM(a, b))
     print("GCD is: ", GCD(a, b))
+    pass
+
+if __name__ == "__main__":
+    main()

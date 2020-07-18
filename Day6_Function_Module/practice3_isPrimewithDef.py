@@ -17,9 +17,13 @@ def isPrime(a):
                 return False
         return True
 
-if __name__ == "__main__":
+def main():
     num = int(input("Enter an integer: "))
     if isPrime(num) == True:
         print("%d is a prime number." % num) 
     else:
         print("%d is not a prime number." % num)
+    pass
+
+if __name__ == "__main__":
+    main()

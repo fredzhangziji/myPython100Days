@@ -13,9 +13,13 @@ def isPalindrome(a):
     if aOri == rev:
         return True
 
-if __name__ == "__main__":
+def main():
     num = int(input("Enter an interger: "))
     if isPalindrome(num):
         print("%d is a Palindrome." % num)
     else:
         print("%d is not a Palindrome." % num)
+    pass
+
+if __name__ == "__main__":
+    main()
