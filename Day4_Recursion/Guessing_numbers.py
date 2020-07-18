@@ -16,7 +16,7 @@ answer = random.randint(1, 100)
 counter = 0
 while True:
     counter += 1
-    number = tkinter.simpledialog.askinteger('请输入', "数字")
+    number = tkinter.simpledialog.askinteger('请输入', "0-100的数字")
     if number < answer:
         tkinter.messagebox.showinfo('提示', '大一点' )
     elif number > answer:
