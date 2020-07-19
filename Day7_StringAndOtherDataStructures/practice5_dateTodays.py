@@ -32,5 +32,8 @@ def datesToDays(month, date, year):
                 numDays += 28
     return numDays+date
 
-if __name__ == '__main__':
+def main():
     print(datesToDays(10,21,2019))
+
+if __name__ == '__main__':
+    main()

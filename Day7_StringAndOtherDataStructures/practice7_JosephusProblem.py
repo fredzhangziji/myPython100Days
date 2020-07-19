@@ -25,5 +25,9 @@ def location(num=30):
 
     print()
 
-if __name__ == '__main__':
+
+def main():
     location()
+
+if __name__ == '__main__':
+    main()

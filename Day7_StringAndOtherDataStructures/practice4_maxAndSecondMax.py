@@ -11,5 +11,8 @@ def max2(list):
     list.remove(max2)
     return max1, max2
 
-if __name__ == '__main__':
+def main():
     print(max2([1,2,3,4,5,7,8]))
+    
+if __name__ == '__main__':
+    main()

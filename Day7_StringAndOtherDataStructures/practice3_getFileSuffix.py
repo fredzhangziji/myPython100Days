@@ -17,6 +17,9 @@ def getFileSuffix(fileName, hasDot=False):
     else:
         return ''  
 
-if __name__ == '__main__':
+def main():
     testfile = 'word.exe'
     print(getFileSuffix(testfile, True))
+
+if __name__ == '__main__':
+    main()

@@ -14,6 +14,10 @@ def generateCode(length=3):
     
     return code
 
+def main():
+    length = int(input("input the length of the verification code: "))
+    print(generateCode(length))
+
 if __name__ == '__main__':
-    print(generateCode())
+    main()
         
