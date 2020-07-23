@@ -29,7 +29,7 @@ class clock(object):
                     self._hour = 0
     
     def currentTime(self):
-        os.system('clear')  # clear the output
+        os.system('cls')  # clear the output (if it's unix sys, it's 'clear')
         # print the new current time
         print('%.2d:%.2d:%.2d' % (self._hour, self._minute, self._second))
     

@@ -20,24 +20,25 @@ class Test:
 
 def main():
     test = Test('hello')
+
+    # only way to access private attributes and methods (but it's "illegal")
+    print("\nIllegal access")
+    test._Test__bar()
+    print(test._Test__foo)
+    print()
+
+
     # AttributeError: 'Test' object has no attribute '__bar'
     test.__bar()
     # AttributeError: 'Test' object has no attribute '__foo'
     print(test.__foo)
 
+    
+
 
 if __name__ == "__main__":
     main()
 
-
-'''
-对于上面的代码，有C++、Java、C#等编程经验的程序员可能会问，我们给Student对象绑定
-的name和age属性到底具有怎样的访问权限（也称为可见性）。因为在很多面向对象编程语言
-中，我们通常会将对象的属性设置为私有的（private）或受保护的（protected），简单的
-说就是不允许外界访问，而对象的方法通常都是公开的（public），因为公开的方法就是对象
-能够接受的消息。在Python中，属性和方法的访问权限只有两种，也就是公开的和私有的，如
-果希望属性是私有的，在给属性命名时可以用两个下划线作为开头，下面的代码可以验证这一点。
-'''
 
 '''
 但是，Python并没有从语法上严格保证私有属性或方法的私密性，它只是给私有的属性和方法换
