@@ -46,6 +46,7 @@ def main():
     person = Person('王大锤', 22)
     person.play()
     person._gender = '男'
+    
     # AttributeError: 'Person' object has no attribute '_is_gay'
     #person._is_gay = True
 
