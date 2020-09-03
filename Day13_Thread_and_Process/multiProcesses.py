@@ -24,4 +24,4 @@ def main():
     print('Total time taken: %d' % (end - start))
 
 if __name__ == "__main__":
-    main()51
+    main()
